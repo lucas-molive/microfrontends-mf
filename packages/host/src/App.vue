@@ -14,7 +14,10 @@
 </template>
 
 <script>
-import Header from "remote/Header";
+import {defineAsyncComponent} from "vue";
+// import Header from "remote/Header";
+
+const Header = defineAsyncComponent(() => import("remote/Header"));
 
 export default {
   components: {

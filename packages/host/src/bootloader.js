@@ -10,7 +10,7 @@ import About from "remote/About";
 
 const routes = [
     { path: "/", component: Home},
-    { path: "/about", component: remote/About}
+    { path: "/about", component: About}
 ];
 
 const router = VueRouter.createRouter({
